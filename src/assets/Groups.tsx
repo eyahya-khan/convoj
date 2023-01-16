@@ -2,7 +2,7 @@ import "./Groups.css";
 
 export default function Groups() {
   return (
-    <div className="groups-groups">
+    <div className="groups">
       <svg
         width="100%"
         height="100%"

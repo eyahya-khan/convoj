@@ -2,7 +2,7 @@ import "./personAdd.css";
 
 export default function personAdd() {
   return (
-    <div className="person_add-person_add">
+    <div className="person-add">
       <svg
         width="100%"
         height="100%"

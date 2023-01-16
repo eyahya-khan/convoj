@@ -2,7 +2,7 @@ import "./Exit_to_app.css";
 
 export default function Exit_to_app() {
   return (
-    <div className="exit_to_app-exit_to_app">
+    <div className="exit-app">
       <svg
         width="100%"
         height="100%"

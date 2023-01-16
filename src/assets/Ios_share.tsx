@@ -2,7 +2,7 @@ import "./Ios_share.css";
 
 export default function Ios_share() {
   return (
-    <div className="ios_share-ios_share">
+    <div className="ios-share">
       <svg
         width="100%"
         height="100%"

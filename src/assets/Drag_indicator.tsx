@@ -2,7 +2,7 @@ import "./Drag_indicator.css";
 
 export default function Drag_indicator() {
   return (
-    <div className="drag_indicator-drag_indicator-35">
+    <div className="drag-indicator">
       <svg
         width="100%"
         height="100%"

@@ -2,7 +2,7 @@ import "./Group_add.css";
 
 export default function Group_add() {
   return (
-    <div className="group_add-group_add">
+    <div className="group-add">
       <svg
         width="100%"
         height="100%"
