@@ -1,11 +1,12 @@
 import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
 import Label from '../assets/label';
+import RightArrow from "../assets/right_arrow";
 import './teamBlue.css'
 
 type dataTableInfoProps = {
     dataTableInfo: {
-        namn: string
+        blueNamn: string
         tjanstegrad: string
         Tjanstetype: string
         Undantagsregler: string
@@ -30,7 +31,7 @@ const teamBlue = (props: dataTableInfoProps) => {
                         <div className="organisation-konto-component-1">
                             <DragIndicator />
                             <p className="organisation-konto-data-table-namn">
-                                {item.namn}
+                                {item.blueNamn}
                             </p>
                         </div>
                         <div className="organisation-konto-frame-145x-1">
@@ -51,6 +52,7 @@ const teamBlue = (props: dataTableInfoProps) => {
                                 </div>
                                 : null}
                         </div>
+                        <RightArrow/>
                     </div>
                 )
             })}

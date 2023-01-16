@@ -15,6 +15,8 @@
 ### step-3
 - "<FontAwesomeIcon className="exp_more1" icon={faAngleDown} />"
 
+## All data together
+- dataInfo.tsx
 
 # view on live 
 

@@ -1,11 +1,11 @@
 import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
 import Label from '../assets/label';
+import RightArrow from "../assets/right_arrow";
 import './teamGul.css'
 
 type dataTableInfoProps = {
     dataTableGulInfo: {
-        namn: string
         tjanstegrad: string
         Tjanstetype: string
         Undantagsregler: string
@@ -52,6 +52,7 @@ const teamGul = (props: dataTableInfoProps) => {
                                 </div>
                                 : null}
                         </div>
+                        <RightArrow/>
                     </div>
                 )
             })}
