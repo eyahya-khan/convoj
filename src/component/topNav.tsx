@@ -1,6 +1,5 @@
 import './topNav.css'
 import Expandmore from "../assets/expand_more";
-import Expandmore1 from "../assets/expand_more1";
 
 type topNavProps = {
   topNavInfo: {
@@ -20,7 +19,7 @@ const topNav = (props: topNavProps) => {
         </div>
         <div className="organisation-konto-item-2x">
           <p className="organisation-konto-schemalggning">{props.topNavInfo.schemaLaggning}</p>
-          <Expandmore1 />
+          <Expandmore />
         </div>
       </div>
       <div className="organisation-konto-right-1">

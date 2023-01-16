@@ -38,29 +38,29 @@ export const dataTableBlueInfo = [
   {
     namn: "Emery Dorwart",
     tjanstegrad: "75%",
-    Tjanstetype:"Dag/Kväll",
+    Tjanstetype: "Dag/Kväll",
     Undantagsregler: "",
-    Delegeringar:"Insulin"
+    Delegeringar: "Insulin"
   },
   {
     namn: "Jakob George",
     tjanstegrad: "80%",
-    Tjanstetype:"Roterande 3-skift",
+    Tjanstetype: "Roterande 3-skift",
     Undantagsregler: "",
-    Delegeringar:"Läkemedel"
+    Delegeringar: "Läkemedel"
   },
   {
     namn: "Maren Passaquindici",
     tjanstegrad: "100%",
-    Tjanstetype:"Stäadning Natt",
+    Tjanstetype: "Stäadning Natt",
     Undantagsregler: "",
-    Delegeringar:"Sond"
+    Delegeringar: "Sond"
   },
   {
     namn: "Justin Donin",
     tjanstegrad: "90%",
-    Tjanstetype:"Dag/Kväll",
+    Tjanstetype: "Dag/Kväll",
     Undantagsregler: "2 st",
-    Delegeringar:" "
+    Delegeringar: ""
   }
 ]

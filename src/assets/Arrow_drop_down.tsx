@@ -2,7 +2,7 @@ import "./Arrow_drop_down.css";
 
 export default function Arrow_drop_down() {
   return (
-    <div className="arrow_drop_down-arrow_drop_down-13">
+    <div className="arrow-drop-down">
       <svg
         width="100%"
         height="100%"

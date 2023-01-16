@@ -1,8 +1,7 @@
 import './dataTable.css'
 import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
-import DragIndicator1 from "../assets/Drag_indicator1";
-import ArrowDropDown1 from "../assets/Arrow_drop_down1";
+import Label from '../assets/label';
 
 type dataTableInfoProps = {
     dataTableInfo: {
@@ -29,19 +28,18 @@ const dataTable = (props: dataTableInfoProps) => {
                 <div className="organisation-konto-frame-365x">
                     <div className="organisation-konto-top-3">
                         <div className="organisation-konto-frame-362x-3">
-                            <DragIndicator1 />
+                            <DragIndicator />
                             <p className="organisation-konto-team-bl">Team Blå</p>
-                            <ArrowDropDown1 />
+                            <ArrowDropDown />
                         </div>
                         <p className="organisation-konto-dlj-3">Dölj</p>
                     </div>
-
                     {props.dataTableInfo.map(item => {
                         return (
                             <div className="organisation-konto-row-1x-1">
                                 <div className="organisation-konto-component-1">
                                     <DragIndicator />
-                                    <p className="organisation-konto-emery-dorwart">
+                                    <p className="organisation-konto-data-table-namn">
                                         {item.namn}
                                     </p>
                                 </div>
@@ -52,21 +50,20 @@ const dataTable = (props: dataTableInfoProps) => {
                                     <p className="organisation-konto-dag-kvll-1">{item.Tjanstetype}</p>
                                 </div>
                                 <div className="organisation-konto-frame-77x-3">
-                                    {/* <Label2 /> */}
+                                    {item.Undantagsregler ? <Label /> : ""}
                                     <p className="organisation-konto-st-2">{item.Undantagsregler}</p>
                                 </div>
                                 <div className="organisation-konto-frame-76x-1" />
                                 <div className="organisation-konto-frame-128x-1">
-                                    <div className="organisation-konto-frame-42x">
-                                        <p className="organisation-konto-insulin">{item.Delegeringar}</p>
-                                    </div>
-                                    {/* <Icon type="FALSE_SMALL_TYPE" /> */}
+                                    {(item.Delegeringar !== "") ? (
+                                        <div className="organisation-konto-frame-42x">
+                                            <p className="organisation-konto-delegeringar">{item.Delegeringar}</p>
+                                        </div>)
+                                        : null}
                                 </div>
                             </div>
                         )
                     })}
-
-
                 </div>
             </div>
         </div>

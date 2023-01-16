@@ -132,7 +132,7 @@
     font-weight: 500;
   }
   
-  .organisation-konto-emery-dorwart {
+  .organisation-konto-data-table-namn {
     font-size: 14px;
     line-height: normal;
     margin: 0px;
@@ -179,7 +179,7 @@
   }
   
   .organisation-konto-frame-76x-1 {
-    width: 192px;
+    /* width: 192px; */
     height: 40px;
   }
   
@@ -211,9 +211,27 @@
     border-radius: 8px;
   }
   
-  .organisation-konto-insulin {
+  .organisation-konto-delegeringar {
     font-size: 12px;
     line-height: 16px;
     margin: 0px;
   }
   
+  .organisation-konto-frame-77x-3 {
+    width: 192px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 32px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .organisation-konto-st-2 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }

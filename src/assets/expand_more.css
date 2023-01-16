@@ -1,5 +1,9 @@
-.expand_more-expand_more-1 {
-    width: 20px;
-    height: 20px;
-  }
-  
+.expand-more {
+  width: 20px;
+  height: 20px;
+}
+
+.exp-more {
+  opacity: 0.4;
+  padding: 0 3px;
+}
