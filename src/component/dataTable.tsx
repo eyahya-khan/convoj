@@ -2,6 +2,7 @@ import './dataTable.css'
 import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
 import { dataTableBlueInfo } from './dataInfo'
+import { dataTableGulInfo } from './dataInfo';
 import TeamBlue from './teamBlue';
 import TeamGul from './teamGul';
 
@@ -17,8 +18,8 @@ const dataTable = () => {
                     </div>
                     <p className="organisation-konto-dlj">Dölj</p>
                 </div>
-                <TeamBlue dataTableInfo={dataTableBlueInfo}/>
-                <TeamGul dataTableInfo={dataTableBlueInfo}/>
+                <TeamBlue dataTableInfo = {dataTableBlueInfo}/>
+                <TeamGul dataTableGulInfo = {dataTableGulInfo}/>
             </div>
         </div>
     )

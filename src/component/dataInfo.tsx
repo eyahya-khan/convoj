@@ -64,3 +64,9 @@ export const dataTableBlueInfo = [
     Delegeringar: ""
   }
 ]
+
+const gulName = ['Marley Vaccaro', 'Kaylynn Septimus', 'Lydia Dias', 'Zaire Siphron']
+
+export const dataTableGulInfo = dataTableBlueInfo.map((item, id)=> Object.assign({},item,{gulNamn: gulName[id]}))
+
+

@@ -4,12 +4,13 @@ import Label from '../assets/label';
 import './teamGul.css'
 
 type dataTableInfoProps = {
-    dataTableInfo: {
+    dataTableGulInfo: {
         namn: string
         tjanstegrad: string
         Tjanstetype: string
         Undantagsregler: string
         Delegeringar: string
+        gulNamn:string
     }[]
 }
 
@@ -24,13 +25,13 @@ const teamGul = (props: dataTableInfoProps) => {
                 </div>
                 <p className="organisation-konto-dlj-3">Dölj</p>
             </div>
-            {props.dataTableInfo.map(item => {
+            {props.dataTableGulInfo.map(item => {
                 return (
                     <div className="organisation-konto-row-1x-1">
                         <div className="organisation-konto-component-1">
                             <DragIndicator />
                             <p className="organisation-konto-data-table-namn">
-                                {item.namn}
+                                {item.gulNamn}
                             </p>
                         </div>
                         <div className="organisation-konto-frame-145x-1">
