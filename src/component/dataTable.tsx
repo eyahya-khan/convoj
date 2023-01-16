@@ -3,8 +3,10 @@ import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
 import { dataTableBlueInfo } from './dataInfo'
 import { dataTableGulInfo } from './dataInfo';
+import { dataTableGreenInfo } from './dataInfo';
 import TeamBlue from './teamBlue';
 import TeamGul from './teamGul';
+import TeamGreen from './teamGreen';
 
 const dataTable = () => {
     return (
@@ -20,6 +22,7 @@ const dataTable = () => {
                 </div>
                 <TeamBlue dataTableInfo = {dataTableBlueInfo}/>
                 <TeamGul dataTableGulInfo = {dataTableGulInfo}/>
+                <TeamGreen dataTableGreenInfo = {dataTableGreenInfo}/>
             </div>
         </div>
     )

@@ -71,8 +71,8 @@ export const dataTableGulInfo = dataTableInfo.map((item, id)=> Object.assign({},
 
 const greenName = ['Desirae Rhiel Madsen', 'Giana Lipshutz', 'Tatiana Carder', 'Ashlynn Siphron']
 
-export const dataTableGreenInfo = dataTableInfo.map((item, id)=> Object.assign({},item,{gulNamn: greenName[id]}))
+export const dataTableGreenInfo = dataTableInfo.map((item, id)=> Object.assign({},item,{greenNamn: greenName[id]}))
 
 const redName = ['Desirae Dokidis', 'Madelyn Schleifer', 'Madelyn Rosser', 'Skylar Bergson']
 
-export const dataTableRedInfo = dataTableInfo.map((item, id)=> Object.assign({},item,{gulNamn: redName[id]}))
+export const dataTableRedInfo = dataTableInfo.map((item, id)=> Object.assign({},item,{redNamn: redName[id]}))
