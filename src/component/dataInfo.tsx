@@ -33,3 +33,34 @@ export const dataTableTitleInfo = {
   Undantagsregler: "Undantagsregler",
   Delegeringar: "Delegeringar"
 }
+
+export const dataTableBlueInfo = [
+  {
+    namn: "Emery Dorwart",
+    tjanstegrad: "75%",
+    Tjanstetype:"Dag/Kväll",
+    Undantagsregler: "",
+    Delegeringar:"Insulin"
+  },
+  {
+    namn: "Jakob George",
+    tjanstegrad: "80%",
+    Tjanstetype:"Roterande 3-skift",
+    Undantagsregler: "",
+    Delegeringar:"Läkemedel"
+  },
+  {
+    namn: "Maren Passaquindici",
+    tjanstegrad: "100%",
+    Tjanstetype:"Stäadning Natt",
+    Undantagsregler: "",
+    Delegeringar:"Sond"
+  },
+  {
+    namn: "Justin Donin",
+    tjanstegrad: "90%",
+    Tjanstetype:"Dag/Kväll",
+    Undantagsregler: "2 st",
+    Delegeringar:" "
+  }
+]

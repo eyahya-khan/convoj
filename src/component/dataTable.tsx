@@ -4,7 +4,17 @@ import ArrowDropDown from "../assets/Arrow_drop_down";
 import DragIndicator1 from "../assets/Drag_indicator1";
 import ArrowDropDown1 from "../assets/Arrow_drop_down1";
 
-const dataTable = () => {
+type dataTableInfoProps = {
+    dataTableInfo: {
+        namn: string
+        tjanstegrad: string
+        Tjanstetype: string
+        Undantagsregler: string
+        Delegeringar: string
+    }[]
+}
+
+const dataTable = (props: dataTableInfoProps) => {
     return (
         <div className="organisation-konto-data-table">
             <div className="organisation-konto-grupp-tallhjden">
@@ -25,6 +35,38 @@ const dataTable = () => {
                         </div>
                         <p className="organisation-konto-dlj-3">Dölj</p>
                     </div>
+
+                    {props.dataTableInfo.map(item => {
+                        return (
+                            <div className="organisation-konto-row-1x-1">
+                                <div className="organisation-konto-component-1">
+                                    <DragIndicator />
+                                    <p className="organisation-konto-emery-dorwart">
+                                        {item.namn}
+                                    </p>
+                                </div>
+                                <div className="organisation-konto-frame-145x-1">
+                                    <p className="organisation-konto-component-10">{item.tjanstegrad}</p>
+                                </div>
+                                <div className="organisation-konto-frame-155x-1">
+                                    <p className="organisation-konto-dag-kvll-1">{item.Tjanstetype}</p>
+                                </div>
+                                <div className="organisation-konto-frame-77x-3">
+                                    {/* <Label2 /> */}
+                                    <p className="organisation-konto-st-2">{item.Undantagsregler}</p>
+                                </div>
+                                <div className="organisation-konto-frame-76x-1" />
+                                <div className="organisation-konto-frame-128x-1">
+                                    <div className="organisation-konto-frame-42x">
+                                        <p className="organisation-konto-insulin">{item.Delegeringar}</p>
+                                    </div>
+                                    {/* <Icon type="FALSE_SMALL_TYPE" /> */}
+                                </div>
+                            </div>
+                        )
+                    })}
+
+
                 </div>
             </div>
         </div>
