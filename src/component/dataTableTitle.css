@@ -1,0 +1,135 @@
+.organisation-konto-data-table-titles {
+    width: 1200px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 120px;
+    top: 260px;
+    display: inline-flex;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+  }
+  
+  .organisation-konto-namn {
+    width: 281px;
+  }
+  
+  .organisation-konto-frame-85x {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-left-radius: 8px;
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .organisation-konto-namn-1 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-tjnstegrad {
+    width: 160px;
+  }
+  
+  .organisation-konto-frame-87x {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 32px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .organisation-konto-tjnstegrad-1 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-tjnstetyp {
+    width: 166px;
+  }
+  
+  .organisation-konto-frame-87x-1 {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 32px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .organisation-konto-tjnstetyp-1 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-undantagsregler {
+    width: 192px;
+  }
+  
+  .organisation-konto-frame-87x-2 {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 32px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .organisation-konto-undantagsregler-1 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-delegeringar {
+    flex: 1 1 0%;
+  }
+  
+  .organisation-konto-frame-88x {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 32px;
+    border-top-right-radius: 8px;
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .organisation-konto-delegeringar-1 {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  

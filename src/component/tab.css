@@ -1,0 +1,71 @@
+
+  .organisation-konto-tabs {
+    position: absolute;
+    left: 120px;
+    top: 143px;
+    gap: 4px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  .organisation-konto-tab-1x {
+    width: 172px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: rgba(11, 86, 113, 0.08);
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    color: rgba(11, 86, 113, 1);
+  }
+  
+  .organisation-konto-organisationshierark {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-tab-2x {
+    width: 166px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .organisation-konto-schemainstllningar {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-tab-5x {
+    width: 153px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.87);
+  }
+  
+  .organisation-konto-kontoinstllningar {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }

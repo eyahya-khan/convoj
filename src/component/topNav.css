@@ -1,0 +1,73 @@
+
+.organisation-konto-top-nav {
+    width: 1440px;
+    height: 64px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 42px;
+    padding-right: 42px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  }
+  
+  .organisation-konto-left-1 {
+    width: 305px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .organisation-konto-item-1x {
+    width: 120px;
+    box-sizing: border-box;
+    gap: 4px;
+    display: flex;
+    align-items: flex-start;
+    padding: 8px;
+  }
+  
+  .organisation-konto-mina-sidor {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-item-2x {
+    width: 165px;
+    box-sizing: border-box;
+    gap: 4px;
+    display: flex;
+    align-items: flex-start;
+    padding: 8px;
+  }
+  
+  .organisation-konto-schemalggning {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-right-1 {
+    width: 117px;
+    box-sizing: border-box;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  
+  .organisation-konto-organisation {
+    font-size: 16px;
+    line-height: normal;
+    margin: 0px;
+  }
+  

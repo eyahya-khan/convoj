@@ -1,0 +1,40 @@
+.organisation-konto-title-search {
+    width: 1200px;
+    position: absolute;
+    left: 120px;
+    top: 91px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+  
+  .organisation-konto-smstadens-kommun {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-search-input-field {
+    width: 335px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.16) inset;
+    box-shadow: 1px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  .organisation-konto-sk {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }

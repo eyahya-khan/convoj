@@ -1,0 +1,167 @@
+
+.organisation-konto-actions {
+    box-sizing: border-box;
+    padding-right: 42px;
+    position: absolute;
+    left: 120px;
+    top: 211px;
+    gap: 440px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .organisation-konto-left {
+    width: 572px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .organisation-konto-add-person {
+    width: 128px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.16) inset;
+    box-shadow: 1px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .organisation-konto-ny-person {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-add-team {
+    width: 129px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.16) inset;
+    box-shadow: 1px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .organisation-konto-nytt-team {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-add-group {
+    width: 124px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.16) inset;
+    box-shadow: 1px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .organisation-konto-ny-grupp {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-change-columns {
+    width: 167px;
+    box-sizing: border-box;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.16) inset;
+    box-shadow: 1px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .organisation-konto-ndra-kolumner {
+    font-size: 14px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-right {
+    width: 154px;
+    gap: 415px;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 500;
+  }
+  
+  .organisation-konto-frame-347x {
+    gap: 16px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .organisation-konto-frame-241x {
+    width: 49px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .organisation-konto-importera {
+    font-size: 11px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-frame-324x {
+    width: 49px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .organisation-konto-exportera {
+    font-size: 11px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
+  .organisation-konto-frame-323x {
+    width: 24px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .organisation-konto-dela {
+    font-size: 11px;
+    line-height: normal;
+    margin: 0px;
+  }
+  
