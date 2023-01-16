@@ -4,6 +4,7 @@ import Search from './search'
 import Tab from './tab'
 import Action from './action'
 import DataTableTitle from './dataTableTitle'
+import DataTable from './dataTable'
 import { topNavInfo } from './dataInfo'
 import { tabInfo } from './dataInfo'
 import { searchInfo } from './dataInfo'
@@ -20,6 +21,7 @@ const Home = () => {
       <Tab tabInfo = {tabInfo}/>
       <Action actionInfo = {actionInfo}/>
       <DataTableTitle dataTableTitleInfo = {dataTableTitleInfo}/>
+      <DataTable/>
     </div>
   )
 }
