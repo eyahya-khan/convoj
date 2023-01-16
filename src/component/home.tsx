@@ -10,7 +10,7 @@ import { tabInfo } from './dataInfo'
 import { searchInfo } from './dataInfo'
 import { dataTableTitleInfo } from './dataInfo'
 import { actionInfo } from './dataInfo'
-import { dataTableBlueInfo } from './dataInfo'
+
 
 const Home = () => {
  
@@ -22,7 +22,7 @@ const Home = () => {
       <Tab tabInfo = {tabInfo}/>
       <Action actionInfo = {actionInfo}/>
       <DataTableTitle dataTableTitleInfo = {dataTableTitleInfo}/>
-      <DataTable dataTableInfo = {dataTableBlueInfo}/>
+      <DataTable />
     </div>
   )
 }

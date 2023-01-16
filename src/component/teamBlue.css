@@ -1,0 +1,13 @@
+.organisation-konto-team-blue {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 32px;
+    background-color: rgba(11, 86, 113, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }

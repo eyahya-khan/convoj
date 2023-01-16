@@ -63,175 +63,161 @@
     margin: 0px;
   }
   
-  
+   
 .organisation-konto-frame-365x {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
-  }
-  
-  .organisation-konto-top-3 {
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 24px;
-    padding-right: 32px;
-    background-color: rgba(11, 86, 113, 0.08);
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: stretch;
-  }
-  
-  .organisation-konto-frame-362x-3 {
-    width: 133px;
-    gap: 16px;
-    display: flex;
-    align-items: flex-start;
-    color: rgba(0, 0, 0, 0.87);
-    font-weight: 700;
-  }
-  
-  .organisation-konto-team-bl {
-    font-size: 14px;
-    line-height: normal;
-    margin: 0px;
-  }
-  
-  .organisation-konto-dlj-3 {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    color: rgba(0, 0, 0, 0.54);
-    margin: 0px;
-  }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.organisation-konto-frame-362x-3 {
+  width: 133px;
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 700;
+}
+
+.organisation-konto-team-bl {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0px;
+}
+
+.organisation-konto-dlj-3 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0px;
+}
 /* for data */
 
 .organisation-konto-row-1x-1 {
-    width: 100%;
-    background-color: white;
-    display: flex;
-    align-items: flex-start;
-    align-self: stretch;
-    color: rgba(0, 0, 0, 0.87);
-  }
-  
-  .organisation-konto-component-1 {
-    width: 281px;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
-    gap: 16px;
-    display: flex;
-    align-items: flex-start;
-    font-weight: 500;
-  }
-  
-  .organisation-konto-data-table-namn {
-    font-size: 14px;
-    line-height: normal;
-    margin: 0px;
-  }
-  
-  .organisation-konto-frame-145x-1 {
-    width: 160px;
-    height: 40px;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 32px;
-    gap: 10px;
-    display: flex;
-    align-items: flex-start;
-    font-weight: 500;
-  }
-  
-  .organisation-konto-component-10 {
-    font-size: 14px;
-    line-height: normal;
-    margin: 0px;
-  }
-  
-  .organisation-konto-frame-155x-1 {
-    width: 166px;
-    height: 40px;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 32px;
-    gap: 10px;
-    display: flex;
-    align-items: flex-start;
-    font-weight: 500;
-  }
-  
-  .organisation-konto-dag-kvll-1 {
-    font-size: 14px;
-    line-height: normal;
-    margin: 0px;
-  }
-  
-  .organisation-konto-frame-76x-1 {
-    /* width: 192px; */
-    height: 40px;
-  }
-  
-  .organisation-konto-frame-128x-1 {
-    flex: 1 1 0%;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-grow: 1px;
-    font-weight: 700;
-  }
-  
-  .organisation-konto-frame-42x {
-    box-sizing: border-box;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 8px;
-    padding-right: 8px;
-    background-color: rgba(11, 86, 113, 0.08);
-    gap: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border-radius: 8px;
-  }
-  
-  .organisation-konto-delegeringar {
-    font-size: 12px;
-    line-height: 16px;
-    margin: 0px;
-  }
-  
-  .organisation-konto-frame-77x-3 {
-    width: 192px;
-    height: 40px;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 32px;
-    gap: 10px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .organisation-konto-st-2 {
-    font-size: 14px;
-    line-height: normal;
-    margin: 0px;
-  }
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.organisation-konto-component-1 {
+  width: 281px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 500;
+}
+
+.organisation-konto-data-table-namn {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0px;
+}
+
+.organisation-konto-frame-145x-1 {
+  width: 160px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 32px;
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 500;
+}
+
+.organisation-konto-component-10 {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0px;
+}
+
+.organisation-konto-frame-155x-1 {
+  width: 166px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 32px;
+  gap: 10px;
+  display: flex;
+  align-items: flex-start;
+  font-weight: 500;
+}
+
+.organisation-konto-dag-kvll-1 {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0px;
+}
+
+.organisation-konto-frame-76x-1 {
+  /* width: 192px; */
+  height: 40px;
+}
+
+.organisation-konto-frame-128x-1 {
+  flex: 1 1 0%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-grow: 1px;
+  font-weight: 700;
+}
+
+.organisation-konto-frame-42x {
+  box-sizing: border-box;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgba(11, 86, 113, 0.08);
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 8px;
+}
+
+.organisation-konto-delegeringar {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0px;
+}
+
+.organisation-konto-frame-77x-3 {
+  width: 192px;
+  height: 40px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 32px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.organisation-konto-st-2 {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0px;
+}
