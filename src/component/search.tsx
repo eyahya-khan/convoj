@@ -11,7 +11,7 @@ const search = (props: searchInfoProps) => {
     <div className="organisation-konto-title-search">
       <p className="organisation-konto-smstadens-kommun">{props.searchInfo.smastadensKommun}</p>
       <div className="organisation-konto-search-input-field">
-        <p className="organisation-konto-sk">{props.searchInfo.sok}</p>
+        <p className="organisation-konto-search">{props.searchInfo.sok}</p>
       </div>
     </div>
   )

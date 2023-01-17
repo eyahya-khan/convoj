@@ -18,14 +18,14 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.16);
 }
 
-.organisation-konto-left-1 {
+.organisation-konto-left-first {
   width: 305px;
   gap: 20px;
   display: flex;
   align-items: center;
 }
 
-.organisation-konto-item-1x {
+.organisation-konto-item-first {
   width: 120px;
   box-sizing: border-box;
   gap: 4px;
@@ -40,7 +40,7 @@
   margin: 0px;
 }
 
-.organisation-konto-item-2x {
+.organisation-konto-item-second {
   width: 165px;
   box-sizing: border-box;
   gap: 4px;
@@ -55,7 +55,7 @@
   margin: 0px;
 }
 
-.organisation-konto-right-1 {
+.organisation-konto-right-first {
   width: 117px;
   box-sizing: border-box;
   gap: 10px;
