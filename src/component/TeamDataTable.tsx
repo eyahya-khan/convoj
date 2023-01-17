@@ -23,40 +23,41 @@ const TeamDataTable = (props: dataTableInfoProps) => {
         <>
             {colorArray.map(color => {
                 return (
-                    <div className="organisation-konto-frame-365x">
+                    <div className="organisation-konto-frame-dataTable-container">
                         <div className={`organisation-konto-team-${color}`}>
-                            <div className="organisation-konto-frame-362x-3">
+                            <div className="organisation-konto-frame-dataTable-container-team">
                                 <DragIndicator />
-                                <p className="organisation-konto-team-bl">Team {color}</p>
+                                <p className="organisation-konto-team-color">Team {color}</p>
                                 <ArrowDropDown />
                             </div>
-                            <p className="organisation-konto-dlj-3">Dölj</p>
+                            <p className="organisation-konto-dlj-team">Dölj</p>
                         </div>
                         {props.dataTableInformation.map(item => {
 
                             return (
-                                <div className="organisation-konto-row-1x-1">
-                                    <div className="organisation-konto-component-1">
+                                <div className="organisation-konto-row-container">
+                                    <div className="organisation-konto-row-container-component">
                                         <DragIndicator />
                                         <p className="organisation-konto-data-table-namn">
-                                            {/* {if (color === 'Blå') ? item.BlåNamn : item.GulNamn} */}
-                                            {item.BlåNamn}
+                                            {color === 'Blå' ? item.BlåNamn : null}
+                                            {color === 'Gul' ? item.GulNamn : null}
+                                            {color === 'Grön' ? item.GrönNamn : null}
+                                            {color === 'Red' ? item.RedNamn : null}
                                         </p>
                                     </div>
-                                    <div className="organisation-konto-frame-145x-1">
-                                        <p className="organisation-konto-component-10">{item.tjanstegrad}</p>
+                                    <div className="organisation-konto-frame-compoContainer-grad">
+                                        <p className="organisation-konto-component-grad">{item.tjanstegrad}</p>
                                     </div>
-                                    <div className="organisation-konto-frame-155x-1">
-                                        <p className="organisation-konto-dag-kvll-1">{item.Tjanstetype}</p>
+                                    <div className="organisation-konto-frame-compoContainer-type">
+                                        <p className="organisation-konto-component-type">{item.Tjanstetype}</p>
                                     </div>
-                                    <div className="organisation-konto-frame-77x-3">
+                                    <div className="organisation-konto-frame-compoContainer-reglar">
                                         {item.Undantagsregler ? <Label /> : ""}
-                                        <p className="organisation-konto-st-2">{item.Undantagsregler}</p>
+                                        <p className="organisation-konto-component-reglar">{item.Undantagsregler}</p>
                                     </div>
-                                    <div className="organisation-konto-frame-76x-1" />
-                                    <div className="organisation-konto-frame-128x-1">
+                                    <div className="organisation-konto-frame-compoContainer-ringar">
                                         {item.Delegeringar !== "" ?
-                                            <div className="organisation-konto-frame-42x">
+                                            <div className="organisation-konto-component-ringar">
                                                 <p className="organisation-konto-delegeringar">{item.Delegeringar}</p>
                                             </div>
                                             : null}

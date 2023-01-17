@@ -9,7 +9,7 @@ const dataTable = () => {
         <div className="organisation-konto-data-table">
             <div className="organisation-konto-grupp-tallhjden">
                 <div className="organisation-konto-top">
-                    <div className="organisation-konto-frame-362x">
+                    <div className="organisation-konto-frame-grupp-tallhjden">
                         <DragIndicator />
                         <p className="organisation-konto-tallhjden">Grupp Tallhöjden</p>
                         <ArrowDropDown />

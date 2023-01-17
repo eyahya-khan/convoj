@@ -114,13 +114,13 @@
     font-weight: 500;
   }
   
-  .organisation-konto-frame-347x {
+  .organisation-konto-frame-impotera {
     gap: 16px;
     display: flex;
     align-items: flex-start;
   }
   
-  .organisation-konto-frame-241x {
+  .organisation-konto-frame-impotera-exit {
     width: 49px;
     gap: 4px;
     display: flex;
@@ -135,7 +135,7 @@
     margin: 0px;
   }
   
-  .organisation-konto-frame-324x {
+  .organisation-konto-frame-share {
     width: 49px;
     gap: 4px;
     display: flex;
@@ -150,7 +150,7 @@
     margin: 0px;
   }
   
-  .organisation-konto-frame-323x {
+  .organisation-konto-frame-dela {
     width: 24px;
     gap: 4px;
     display: flex;

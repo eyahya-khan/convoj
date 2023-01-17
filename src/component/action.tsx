@@ -41,16 +41,16 @@ const action = (props: actionProps) => {
           </div>
         </div>
         <div className="organisation-konto-right">
-          <div className="organisation-konto-frame-347x">
-            <div className="organisation-konto-frame-241x">
+          <div className="organisation-konto-frame-impotera">
+            <div className="organisation-konto-frame-impotera-exit">
               <ExitToApp />
               <p className="organisation-konto-importera">{props.actionInfo.importera}</p>
             </div>
-            <div className="organisation-konto-frame-324x">
+            <div className="organisation-konto-frame-share">
               <IosShare />
               <p className="organisation-konto-exportera">{props.actionInfo.exportera}</p>
             </div>
-            <div className="organisation-konto-frame-323x">
+            <div className="organisation-konto-frame-dela">
               <Share />
               <p className="organisation-konto-dela">{props.actionInfo.dela}</p>
             </div>

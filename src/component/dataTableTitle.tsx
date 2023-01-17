@@ -13,7 +13,7 @@ type dataTableProps = {
 
 const dataTableTitle = (props: dataTableProps) => {
   return (
-    <div className="organisation-konto-data-table-titles">
+    <div className="organisation-konto-data-table-title">
         <div className="organisation-konto-namn">
           <div className="organisation-konto-frame-85x">
             <p className="organisation-konto-namn-1">{props.dataTableTitleInfo.namn}</p>
