@@ -1,12 +1,8 @@
 import './dataTable.css'
 import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
-import { dataTableBlueInfo } from './dataInfo'
-import { dataTableGulInfo } from './dataInfo';
-import { dataTableGreenInfo } from './dataInfo';
-import TeamBlue from './teamBlue';
-import TeamGul from './teamGul';
-import TeamGreen from './teamGreen';
+import { dataTableInformation } from './dataInfo'
+import TeamDataTable from './TeamDataTable';
 
 const dataTable = () => {
     return (
@@ -20,9 +16,7 @@ const dataTable = () => {
                     </div>
                     <p className="organisation-konto-dlj">Dölj</p>
                 </div>
-                <TeamBlue dataTableInfo = {dataTableBlueInfo}/>
-                <TeamGul dataTableGulInfo = {dataTableGulInfo}/>
-                <TeamGreen dataTableGreenInfo = {dataTableGreenInfo}/>
+                <TeamDataTable dataTableInformation = {dataTableInformation}/>
             </div>
         </div>
     )
