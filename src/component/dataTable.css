@@ -1,69 +1,68 @@
 .organisation-konto-data-table {
-    width: 1200px;
-    position: absolute;
-    left: 120px;
-    top: 308px;
-    overflow: clip;
-    gap: 16px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .organisation-konto-grupp-tallhjden {
-    width: 100%;
-    box-sizing: border-box;
-    background-color: white;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: stretch;
-  }
-  
-  .organisation-konto-top {
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 32px;
-    background-color: rgba(11, 86, 113, 0.16);
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.23) inset;
-    box-shadow: 1px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-self: stretch;
-  }
-  
-  .organisation-konto-frame-grupp-tallhjden {
-    width: 185px;
-    gap: 16px;
-    display: flex;
-    align-items: flex-start;
-    color: rgba(0, 0, 0, 0.87);
-    font-weight: 700;
-  }
-  
-  .organisation-konto-tallhjden {
-    font-size: 14px;
-    line-height: normal;
-    margin: 0px;
-  }
-  
-  .organisation-konto-dlj {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: normal;
-    color: rgba(0, 0, 0, 0.54);
-    margin: 0px;
-  }
-  
-   
+  width: 1200px;
+  position: absolute;
+  left: 120px;
+  top: 308px;
+  overflow: clip;
+  gap: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.organisation-konto-grupp-tallhjden {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.organisation-konto-top {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 32px;
+  background-color: rgba(11, 86, 113, 0.16);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.23) inset;
+  box-shadow: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.organisation-konto-frame-grupp-tallhjden {
+  width: 185px;
+  gap: 16px;
+  display: flex;
+  align-items: flex-start;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 700;
+}
+
+.organisation-konto-tallhjden {
+  font-size: 14px;
+  line-height: normal;
+  margin: 0px;
+}
+
+.organisation-konto-dlj {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0px;
+}
+
 .organisation-konto-frame-dataTable-container {
   width: 100%;
   display: flex;

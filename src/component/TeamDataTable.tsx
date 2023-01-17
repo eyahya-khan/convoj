@@ -9,7 +9,7 @@ type dataTableInfoProps = {
         BlåNamn: string
         GulNamn: string
         GrönNamn: string
-        RedNamn: string
+        RödNamn: string
         tjanstegrad: string
         Tjanstetype: string
         Undantagsregler: string
@@ -18,7 +18,7 @@ type dataTableInfoProps = {
 }
 
 const TeamDataTable = (props: dataTableInfoProps) => {
-    const colorArray = ['Blå', 'Gul', 'Grön', 'Red']
+    const colorArray = ['Blå', 'Gul', 'Grön', 'Röd']
     return (
         <>
             {colorArray.map(color => {
@@ -42,7 +42,7 @@ const TeamDataTable = (props: dataTableInfoProps) => {
                                             {color === 'Blå' ? item.BlåNamn : null}
                                             {color === 'Gul' ? item.GulNamn : null}
                                             {color === 'Grön' ? item.GrönNamn : null}
-                                            {color === 'Red' ? item.RedNamn : null}
+                                            {color === 'Röd' ? item.RödNamn : null}
                                         </p>
                                     </div>
                                     <div className="organisation-konto-frame-compoContainer-grad">

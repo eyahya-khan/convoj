@@ -16,7 +16,7 @@ const dataTable = () => {
                     </div>
                     <p className="organisation-konto-dlj">Dölj</p>
                 </div>
-                <TeamDataTable dataTableInformation = {dataTableInformation}/>
+                <TeamDataTable dataTableInformation={dataTableInformation} />
             </div>
         </div>
     )

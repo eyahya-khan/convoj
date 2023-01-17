@@ -25,6 +25,7 @@
   align-items: flex-start;
   align-self: stretch;
 }
+
 .organisation-konto-team-Grön {
   width: 100%;
   box-sizing: border-box;
@@ -38,7 +39,8 @@
   align-items: flex-start;
   align-self: stretch;
 }
-.organisation-konto-team-Red {
+
+.organisation-konto-team-Röd {
   width: 100%;
   box-sizing: border-box;
   padding-top: 10px;

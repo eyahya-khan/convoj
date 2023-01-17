@@ -1,4 +1,4 @@
-.organisation-konto-data-table-title {
+.organisation-konto-data-table-title-container {
     width: 1200px;
     box-sizing: border-box;
     position: absolute;
@@ -12,11 +12,11 @@
     font-weight: 700;
   }
   
-  .organisation-konto-namn {
+  .organisation-konto-data-table-title-frame {
     width: 281px;
   }
   
-  .organisation-konto-frame-85x {
+  .organisation-konto-frame-component {
     width: 100%;
     box-sizing: border-box;
     padding-top: 10px;
@@ -30,17 +30,17 @@
     align-self: stretch;
   }
   
-  .organisation-konto-namn-1 {
+  .organisation-konto-component-namn {
     font-size: 14px;
     line-height: normal;
     margin: 0px;
   }
   
-  .organisation-konto-tjnstegrad {
+  .organisation-konto-tjnstegrad-container {
     width: 160px;
   }
   
-  .organisation-konto-frame-87x {
+  .organisation-konto-tjnstegrad-frame {
     width: 100%;
     height: 40px;
     box-sizing: border-box;
@@ -54,17 +54,17 @@
     align-self: stretch;
   }
   
-  .organisation-konto-tjnstegrad-1 {
+  .organisation-konto-tjnstegrad {
     font-size: 14px;
     line-height: normal;
     margin: 0px;
   }
   
-  .organisation-konto-tjnstetyp {
+  .organisation-konto-tjnstetyp-container {
     width: 166px;
   }
   
-  .organisation-konto-frame-87x-1 {
+  .organisation-konto-tjnstetyp-frame {
     width: 100%;
     height: 40px;
     box-sizing: border-box;
@@ -78,17 +78,17 @@
     align-self: stretch;
   }
   
-  .organisation-konto-tjnstetyp-1 {
+  .organisation-konto-tjnstetyp {
     font-size: 14px;
     line-height: normal;
     margin: 0px;
   }
   
-  .organisation-konto-undantagsregler {
+  .organisation-konto-undantagsregler-container {
     width: 192px;
   }
   
-  .organisation-konto-frame-87x-2 {
+  .organisation-konto-undantagsregler-frame {
     width: 100%;
     height: 40px;
     box-sizing: border-box;
@@ -102,17 +102,17 @@
     align-self: stretch;
   }
   
-  .organisation-konto-undantagsregler-1 {
+  .organisation-konto-undantagsregler {
     font-size: 14px;
     line-height: normal;
     margin: 0px;
   }
   
-  .organisation-konto-delegeringar {
+  .organisation-konto-delegeringar-container {
     flex: 1 1 0%;
   }
   
-  .organisation-konto-frame-88x {
+  .organisation-konto-delegeringar-frame {
     width: 100%;
     height: 40px;
     box-sizing: border-box;
@@ -127,7 +127,7 @@
     align-self: stretch;
   }
   
-  .organisation-konto-delegeringar-1 {
+  .organisation-konto-frame-delegeringar {
     font-size: 14px;
     line-height: normal;
     margin: 0px;

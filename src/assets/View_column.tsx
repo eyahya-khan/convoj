@@ -2,7 +2,7 @@ import "./View_column.css";
 
 export default function View_column() {
   return (
-    <div className="view_column-view_column">
+    <div className="view-column">
       <svg
         width="100%"
         height="100%"

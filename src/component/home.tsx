@@ -13,15 +13,15 @@ import { actionInfo } from './dataInfo'
 
 
 const Home = () => {
- 
+
   return (
     <div className='organisation-konto'>
-      <TopNav topNavInfo = {topNavInfo} />
+      <TopNav topNavInfo={topNavInfo} />
       <div className="organisation-konto-bgheader" />
-      <Search searchInfo = {searchInfo}/>
-      <Tab tabInfo = {tabInfo}/>
-      <Action actionInfo = {actionInfo}/>
-      <DataTableTitle dataTableTitleInfo = {dataTableTitleInfo}/>
+      <Search searchInfo={searchInfo} />
+      <Tab tabInfo={tabInfo} />
+      <Action actionInfo={actionInfo} />
+      <DataTableTitle dataTableTitleInfo={dataTableTitleInfo} />
       <DataTable />
     </div>
   )

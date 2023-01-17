@@ -22,41 +22,41 @@ type actionProps = {
 const action = (props: actionProps) => {
   return (
     <div className="organisation-konto-actions">
-        <div className="organisation-konto-left">
-          <div className="organisation-konto-add-person">
-            <PersonAdd />
-            <p className="organisation-konto-ny-person">{props.actionInfo.person}</p>
-          </div>
-          <div className="organisation-konto-add-team">
-            <Groups />
-            <p className="organisation-konto-nytt-team">{props.actionInfo.team}</p>
-          </div>
-          <div className="organisation-konto-add-group">
-            <GroupAdd />
-            <p className="organisation-konto-ny-grupp">{props.actionInfo.group}</p>
-          </div>
-          <div className="organisation-konto-change-columns">
-            <ViewColumn />
-            <p className="organisation-konto-ndra-kolumner">{props.actionInfo.changeColumn}</p>
-          </div>
+      <div className="organisation-konto-left">
+        <div className="organisation-konto-add-person">
+          <PersonAdd />
+          <p className="organisation-konto-ny-person">{props.actionInfo.person}</p>
         </div>
-        <div className="organisation-konto-right">
-          <div className="organisation-konto-frame-impotera">
-            <div className="organisation-konto-frame-impotera-exit">
-              <ExitToApp />
-              <p className="organisation-konto-importera">{props.actionInfo.importera}</p>
-            </div>
-            <div className="organisation-konto-frame-share">
-              <IosShare />
-              <p className="organisation-konto-exportera">{props.actionInfo.exportera}</p>
-            </div>
-            <div className="organisation-konto-frame-dela">
-              <Share />
-              <p className="organisation-konto-dela">{props.actionInfo.dela}</p>
-            </div>
+        <div className="organisation-konto-add-team">
+          <Groups />
+          <p className="organisation-konto-nytt-team">{props.actionInfo.team}</p>
+        </div>
+        <div className="organisation-konto-add-group">
+          <GroupAdd />
+          <p className="organisation-konto-ny-grupp">{props.actionInfo.group}</p>
+        </div>
+        <div className="organisation-konto-change-columns">
+          <ViewColumn />
+          <p className="organisation-konto-ndra-kolumner">{props.actionInfo.changeColumn}</p>
+        </div>
+      </div>
+      <div className="organisation-konto-right">
+        <div className="organisation-konto-frame-impotera">
+          <div className="organisation-konto-frame-impotera-exit">
+            <ExitToApp />
+            <p className="organisation-konto-importera">{props.actionInfo.importera}</p>
+          </div>
+          <div className="organisation-konto-frame-share">
+            <IosShare />
+            <p className="organisation-konto-exportera">{props.actionInfo.exportera}</p>
+          </div>
+          <div className="organisation-konto-frame-dela">
+            <Share />
+            <p className="organisation-konto-dela">{props.actionInfo.dela}</p>
           </div>
         </div>
       </div>
+    </div>
   )
 }
 
