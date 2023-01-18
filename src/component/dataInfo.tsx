@@ -63,16 +63,25 @@ const dataTableInfo = [
 
 const blueName = ['Emery Dorwart', 'Jakob George', 'Maren Passaquindici', 'Justin Donin']
 
-export const dataTableBlueInfo = dataTableInfo.map((item, id) => Object.assign({}, item, { BlåNamn: blueName[id] }))
+const dataTableBlueInfo = dataTableInfo.map((item, id) => Object.assign({}, item, { BlåNamn: blueName[id] }))
 
 const gulName = ['Marley Vaccaro', 'Kaylynn Septimus', 'Lydia Dias', 'Zaire Siphron']
 
-export const dataTableGulInfo = dataTableBlueInfo.map((item, id) => Object.assign({}, item, { GulNamn: gulName[id] }))
+const dataTableGulInfo = dataTableBlueInfo.map((item, id) => Object.assign({}, item, { GulNamn: gulName[id] }))
 
 const greenName = ['Desirae Rhiel Madsen', 'Giana Lipshutz', 'Tatiana Carder', 'Ashlynn Siphron']
 
-export const dataTableGreenInfo = dataTableGulInfo.map((item, id) => Object.assign({}, item, { GrönNamn: greenName[id] }))
+const dataTableGreenInfo = dataTableGulInfo.map((item, id) => Object.assign({}, item, { GrönNamn: greenName[id] }))
 
 const redName = ['Desirae Dokidis', 'Madelyn Schleifer', 'Madelyn Rosser', 'Skylar Bergson']
 
 export const dataTableInformation = dataTableGreenInfo.map((item, id) => Object.assign({}, item, { RödNamn: redName[id] }))
+
+
+const gladanName = ['Justin Lubin', 'Alfredo Herwitz', 'Philip Schleifer', 'Madelyn George']
+
+const dataTableGladanInfo = dataTableInfo.map((item, id) => Object.assign({}, item, { gladanNamn: gladanName[id] }))
+
+const sarlanName = ['Marcus Saris', 'Adison Aminoff', 'Randy Saptimus', 'Randy Gouse']
+
+export const dataTableAlvgardenInfo = dataTableGladanInfo.map((item, id) => Object.assign({}, item, { sarlanNamn: sarlanName[id] }))

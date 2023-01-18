@@ -13,7 +13,6 @@ import { actionInfo } from './dataInfo'
 
 
 const Home = () => {
-
   return (
     <div className='organisation-konto'>
       <TopNav topNavInfo={topNavInfo} />

@@ -2,14 +2,11 @@ import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
 import Label from '../assets/label';
 import RightArrow from "../assets/right_arrow";
-import './TeamDataTable.css'
 
 type dataTableInfoProps = {
-    dataTableInformation: {
-        BlåNamn: string
-        GulNamn: string
-        GrönNamn: string
-        RödNamn: string
+    dataTableAlvgardenInfo: {
+        gladanNamn: string
+        sarlanNamn: string
         tjanstegrad: string
         Tjanstetype: string
         Undantagsregler: string
@@ -17,9 +14,9 @@ type dataTableInfoProps = {
     }[]
 }
 
-const TeamDataTable = (props: dataTableInfoProps) => {
-    const colorArray = ['Blå', 'Gul', 'Grön', 'Röd']
-    return (
+const groupAlvgardenData = (props: dataTableInfoProps) => {
+    const colorArray = ['Gladan', 'Särlan']
+  return (
         <>
             {colorArray.map(color => {
                 return (
@@ -32,17 +29,15 @@ const TeamDataTable = (props: dataTableInfoProps) => {
                             </div>
                             <p className="organisation-konto-dlj-team">Dölj</p>
                         </div>
-                        {props.dataTableInformation.map(item => {
+                        {props.dataTableAlvgardenInfo.map(item => {
 
                             return (
                                 <div className="organisation-konto-row-container">
                                     <div className="organisation-konto-row-container-component">
                                         <DragIndicator />
                                         <p className="organisation-konto-data-table-namn">
-                                            {color === 'Blå' ? item.BlåNamn : null}
-                                            {color === 'Gul' ? item.GulNamn : null}
-                                            {color === 'Grön' ? item.GrönNamn : null}
-                                            {color === 'Röd' ? item.RödNamn : null}
+                                            {color === 'Gladan' ? item.gladanNamn : null}
+                                            {color === 'Särlan' ? item.sarlanNamn : null}
                                         </p>
                                     </div>
                                     <div className="organisation-konto-frame-compoContainer-grad">
@@ -73,4 +68,4 @@ const TeamDataTable = (props: dataTableInfoProps) => {
     )
 }
 
-export default TeamDataTable
+export default groupAlvgardenData
