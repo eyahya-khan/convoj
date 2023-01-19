@@ -3,6 +3,7 @@ import ArrowDropDown from "../assets/Arrow_drop_down";
 import Label from '../assets/label';
 import RightArrow from "../assets/right_arrow";
 import './TeamDataTable.css'
+import { useState } from "react";
 
 type dataTableInfoProps = {
     dataTableInformation: {
@@ -18,32 +19,45 @@ type dataTableInfoProps = {
 }
 
 const TeamDataTable = (props: dataTableInfoProps) => {
+    const [toggleBlå, setToggleBlå] = useState<boolean>(false)
     const colorArray = ['Blå', 'Gul', 'Grön', 'Röd']
+
+const handleClick = (color : any) =>{
+    if (color === "Blå"){
+       setToggleBlå(!toggleBlå)
+    }
+    // if (grpItem.groupItem === "Älvgården"){
+    //     setToggleAlv(!toggleAlv)
+    //  }
+    console.log(color)
+}
+
     return (
         <>
             {colorArray.map(color => {
                 return (
                     <div className="organisation-konto-frame-dataTable-container">
-                        <div className={`organisation-konto-team-${color}`}>
+                        <div className={`organisation-konto-team-${color}`} onClick={() => handleClick(color)}>
                             <div className="organisation-konto-frame-dataTable-container-team">
                                 <DragIndicator />
-                                <p className="organisation-konto-team-color">Team {color}</p>
+                                <p className="organisation-konto-team-color" >Team {color}</p>
                                 <ArrowDropDown />
                             </div>
                             <p className="organisation-konto-dlj-team">Dölj</p>
                         </div>
-                        {props.dataTableInformation.map(item => {
+                        {toggleBlå ? 
+                        props.dataTableInformation.map(item => {
 
                             return (
                                 <div className="organisation-konto-row-container">
                                     <div className="organisation-konto-row-container-component">
                                         <DragIndicator />
-                                        <p className="organisation-konto-data-table-namn">
-                                            {color === 'Blå' ? item.BlåNamn : null}
-                                            {color === 'Gul' ? item.GulNamn : null}
-                                            {color === 'Grön' ? item.GrönNamn : null}
-                                            {color === 'Röd' ? item.RödNamn : null}
-                                        </p>
+                                            <p className="organisation-konto-data-table-namn">
+                                                {color === 'Blå' ? item.BlåNamn : null}
+                                                {color === 'Gul' ? item.GulNamn : null}
+                                                {color === 'Grön' ? item.GrönNamn : null}
+                                                {color === 'Röd' ? item.RödNamn : null}
+                                            </p>
                                     </div>
                                     <div className="organisation-konto-frame-compoContainer-grad">
                                         <p className="organisation-konto-component-grad">{item.tjanstegrad}</p>
@@ -63,9 +77,10 @@ const TeamDataTable = (props: dataTableInfoProps) => {
                                             : null}
                                     </div>
                                     <RightArrow />
-                                </div>
-                            )
-                        })}
+                                    </div>
+                                    )
+                                })
+                             : null}
                     </div>
                 )
             })}
