@@ -5,24 +5,21 @@ import Tab from './tab'
 import Action from './action'
 import DataTableTitle from './dataTableTitle'
 import DataTable from './dataTable'
-import { topNavInfo } from './dataInfo'
-import { tabInfo } from './dataInfo'
-import { searchInfo } from './dataInfo'
-import { dataTableTitleInfo } from './dataInfo'
-import { actionInfo } from './dataInfo'
-
+import { DataContextProvider } from './dataContext'
 
 const Home = () => {
   return (
+    <DataContextProvider>
     <div className='organisation-konto'>
-      <TopNav topNavInfo={topNavInfo} />
+      <TopNav />
       <div className="organisation-konto-bgheader" />
-      <Search searchInfo={searchInfo} />
-      <Tab tabInfo={tabInfo} />
-      <Action actionInfo={actionInfo} />
-      <DataTableTitle dataTableTitleInfo={dataTableTitleInfo} />
+      <Search />
+      <Tab />
+      <Action />
+      <DataTableTitle />
       <DataTable />
     </div>
+    </DataContextProvider>
   )
 }
 

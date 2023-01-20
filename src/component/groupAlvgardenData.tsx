@@ -2,19 +2,12 @@ import DragIndicator from "../assets/Drag_indicator";
 import ArrowDropDown from "../assets/Arrow_drop_down";
 import Label from '../assets/label';
 import RightArrow from "../assets/right_arrow";
+import { useContext } from "react";
+import { DataContext } from "./dataContext";
 
-type dataTableInfoProps = {
-    dataTableAlvgardenInfo: {
-        gladanNamn: string
-        sarlanNamn: string
-        tjanstegrad: string
-        Tjanstetype: string
-        Undantagsregler: string
-        Delegeringar: string
-    }[]
-}
-
-const groupAlvgardenData = (props: dataTableInfoProps) => {
+const groupAlvgardenData = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+    const alvgardenContext = useContext(DataContext)
     const colorArray = ['Gladan', 'Särlan']
   return (
         <>
@@ -29,7 +22,7 @@ const groupAlvgardenData = (props: dataTableInfoProps) => {
                             </div>
                             <p className="organisation-konto-dlj-team">Dölj</p>
                         </div>
-                        {props.dataTableAlvgardenInfo.map(item => {
+                        {alvgardenContext.dataTableAlvgardenInfo.map(item => {
 
                             return (
                                 <div className="organisation-konto-row-container">

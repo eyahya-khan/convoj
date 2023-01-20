@@ -3,22 +3,11 @@ import ArrowDropDown from "../assets/Arrow_drop_down";
 import Label from '../assets/label';
 import RightArrow from "../assets/right_arrow";
 import './TeamDataTable.css'
-import { useState } from "react";
+import { useContext, useState } from "react";
+import { DataContext } from "./dataContext";
 
-type dataTableInfoProps = {
-    dataTableInformation: {
-        BlåNamn: string
-        GulNamn: string
-        GrönNamn: string
-        RödNamn: string
-        tjanstegrad: string
-        Tjanstetype: string
-        Undantagsregler: string
-        Delegeringar: string
-    }[]
-}
-
-const TeamDataTable = (props: dataTableInfoProps) => {
+const TeamDataTable = () => {
+    const tableContext = useContext(DataContext)
     const [toggleBlå, setToggleBlå] = useState<boolean>(false)
     const colorArray = ['Blå', 'Gul', 'Grön', 'Röd']
 
@@ -26,10 +15,15 @@ const handleClick = (color : any) =>{
     if (color === "Blå"){
        setToggleBlå(!toggleBlå)
     }
-    // if (grpItem.groupItem === "Älvgården"){
-    //     setToggleAlv(!toggleAlv)
-    //  }
-    console.log(color)
+    if (color === "Gul"){
+        setToggleBlå(!toggleBlå)
+     }
+     if (color === "Grön"){
+        setToggleBlå(!toggleBlå)
+     }
+     if (color === "Röd"){
+        setToggleBlå(!toggleBlå)
+     }
 }
 
     return (
@@ -46,7 +40,7 @@ const handleClick = (color : any) =>{
                             <p className="organisation-konto-dlj-team">Dölj</p>
                         </div>
                         {toggleBlå ? 
-                        props.dataTableInformation.map(item => {
+                        tableContext.dataTableInformation.map(item => {
 
                             return (
                                 <div className="organisation-konto-row-container">

@@ -1,29 +1,25 @@
 import './tab.css'
+import { DataContext } from './dataContext'
+import { useContext } from 'react'
 
-type tabProps = {
-    tabInfo: {
-        organisationshierarki: string
-        schemainställningar: string
-        kontoinställningar: string
-    }
-}
-
-const tab = (props: tabProps) => {
+const tab = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+    const tabContext = useContext(DataContext)
     return (
         <div className="organisation-konto-tabs">
             <div className="organisation-konto-tab-first">
                 <p className="organisation-konto-organisationshierark">
-                    {props.tabInfo.organisationshierarki}
+                    {tabContext.tabInfo.organisationshierarki}
                 </p>
             </div>
             <div className="organisation-konto-tab-second">
                 <p className="organisation-konto-schemainstllningar">
-                    {props.tabInfo.schemainställningar}
+                    {tabContext.tabInfo.schemainställningar}
                 </p>
             </div>
             <div className="organisation-konto-tab-third">
                 <p className="organisation-konto-kontoinstllningar">
-                    {props.tabInfo.kontoinställningar}
+                    {tabContext.tabInfo.kontoinställningar}
                 </p>
             </div>
         </div>
