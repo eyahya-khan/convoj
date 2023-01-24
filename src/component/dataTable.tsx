@@ -11,6 +11,7 @@ const dataTable = () => {
     // const [toggleVisa, setToggleVisa] = useState('Visa')
     const [toggleTall, setToggleTall] = useState(false)
     const [toggleAlv, setToggleAlv] = useState(false)
+    const [toggleEkbacka, setToggleEkbacka] = useState(false)
     const groupArray = ['Tallhöjden', 'Älvgården', 'Ekbacka']
 
     const handleClick = (grpItem: any) => {
@@ -21,8 +22,10 @@ const dataTable = () => {
         if (grpItem.groupItem === "Älvgården") {
             setToggleAlv(!toggleAlv)
         }
+        if (grpItem.groupItem === "Ekbacka") {
+            setToggleEkbacka(!toggleEkbacka)
+        }
     }
-
     return (
         <>
             <DataContextProvider>
@@ -40,7 +43,7 @@ const dataTable = () => {
                                 </div>
                                 {groupItem === 'Tallhöjden' && toggleTall ? <TeamDataTable /> : null}
                                 {groupItem === 'Älvgården' && toggleAlv ? <GroupAlvgardenData /> : null}
-                                {groupItem === 'Ekbacka' ? null : null}
+                                {groupItem === 'Ekbacka' && toggleEkbacka? "Data is not available." : null}
                             </div>
                         )
                     })}

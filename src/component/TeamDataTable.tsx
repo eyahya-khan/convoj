@@ -25,13 +25,12 @@ const handleClick = (color : any) =>{
         setToggleBlå(!toggleBlå)
      }
 }
-
     return (
         <>
             {colorArray.map(color => {
                 return (
-                    <div className="organisation-konto-frame-dataTable-container">
-                        <div className={`organisation-konto-team-${color}`} onClick={() => handleClick(color)}>
+                    <div className="organisation-konto-frame-dataTable-container" onClick={() => handleClick(color)}>
+                        <div className={`organisation-konto-team-${color}`} >
                             <div className="organisation-konto-frame-dataTable-container-team">
                                 <DragIndicator />
                                 <p className="organisation-konto-team-color" >Team {color}</p>
@@ -41,7 +40,6 @@ const handleClick = (color : any) =>{
                         </div>
                         {toggleBlå ? 
                         tableContext.dataTableInformation.map(item => {
-
                             return (
                                 <div className="organisation-konto-row-container">
                                     <div className="organisation-konto-row-container-component">
